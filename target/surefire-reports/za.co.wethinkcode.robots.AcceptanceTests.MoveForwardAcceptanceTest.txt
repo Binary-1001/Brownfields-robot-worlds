@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: za.co.wethinkcode.robots.AcceptanceTests.MoveForwardAcceptanceTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.423 s - in za.co.wethinkcode.robots.AcceptanceTests.MoveForwardAcceptanceTest

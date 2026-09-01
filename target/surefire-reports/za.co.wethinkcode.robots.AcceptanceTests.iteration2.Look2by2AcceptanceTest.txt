@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: za.co.wethinkcode.robots.AcceptanceTests.iteration2.Look2by2AcceptanceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.092 s - in za.co.wethinkcode.robots.AcceptanceTests.iteration2.Look2by2AcceptanceTest

@@ -1,0 +1,39 @@
+# Created at 2026-09-02T00:44:18.473
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '* Creating World.. [size: 2 x 2, obstacles: 0,1, pits: none, mines: none, visibility: 10]'.
+
+# Created at 2026-09-02T00:44:18.476
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '* Initialized World'.
+
+# Created at 2026-09-02T00:44:19.923
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Robot World server running and waiting for client connections on port 36715'.
+
+# Created at 2026-09-02T00:44:19.993
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream ' > Client connection: Socket[addr=/127.0.0.1,port=46576,localport=36715]'.
+
+# Created at 2026-09-02T00:44:20.232
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream ' > Connection from localhost:46576'.
+
+# Created at 2026-09-02T00:44:20.237
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[localhost:46576] > Waiting for client...'.
+
+# Created at 2026-09-02T00:44:20.380
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[localhost:46576] >> Message received: {"robot":"HAL","command":"launch","arguments":["Normal",2,2]}'.
+
+# Created at 2026-09-02T00:44:20.399
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '"["+clientMachine+"] >* Launching Robot HAL'.
+
+# Created at 2026-09-02T00:44:20.439
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[localhost:46576] << Response: WorldResponse{result='OK', data={visibility=10, position=[0, 0], objects=[]}, state=RobotStatus{position=[0, 0], direction='NORTH', shields=0, shots=0, status='TODO'}}'.
+
+# Created at 2026-09-02T00:44:20.452
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[localhost:46576] >> Message received: {"robot":"HAL","command":"look","arguments":[]}'.
+
+# Created at 2026-09-02T00:44:20.471
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[localhost:46576] << Response: WorldResponse{result='OK', data={visibility=10, position=[0, 0], objects=[ViewableObject{robot=Robot{name='HAL', currentPosition=Pos{x=0, y=0}, currentDirection=NORTH}, direction='NORTH', type='OBSTACLE', distance=1}, ViewableObject{robot=Robot{name='HAL', currentPosition=Pos{x=0, y=0}, currentDirection=NORTH}, direction='EAST', type='EDGE', distance=1}, ViewableObject{robot=Robot{name='HAL', currentPosition=Pos{x=0, y=0}, currentDirection=NORTH}, direction='WEST', type='EDGE', distance=1}, ViewableObject{robot=Robot{name='HAL', currentPosition=Pos{x=0, y=0}, currentDirection=NORTH}, direction='NORTH', type='EDGE', distance=1}, ViewableObject{robot=Robot{name='HAL', currentPosition=Pos{x=0, y=0}, currentDirection=NORTH}, direction='SOUTH', type='EDGE', distance=1}]}, state=RobotStatus{position=[0, 0], direction='NORTH', shields=0, shots=0, status='TODO'}}'.
+
+# Created at 2026-09-02T00:44:20.472
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[localhost:46576] * Client disconnected: Removing robot: Robot{name='HAL', currentPosition=Pos{x=0, y=0}, currentDirection=NORTH}'.
+
+# Created at 2026-09-02T00:44:20.494
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[localhost:46576] * Client connection closed.'.
+
