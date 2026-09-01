@@ -1,0 +1,10 @@
+{
+  "width": 1,
+  "height": 1,
+  "visibility": 3,
+  "maxBullets": 4,
+  "maxShields": 5,
+  "repairTime": 3,
+  "reloadTime": 3,
+  "obstacles": []
+}

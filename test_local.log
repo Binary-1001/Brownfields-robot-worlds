@@ -1,0 +1,76 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for za.co.wethinkcode:robot-world:jar:0.0.2
+[[1;33mWARNING[m] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.codehaus.mojo:exec-maven-plugin @ line 92, column 21
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36mza.co.wethinkcode:robot-world[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding robot-world 0.0.2[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mrobot-world[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/wtc/Documents/Java/brownfields-robot-worlds-cjc-08/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:compile[m [1m(default-compile)[m @ [36mrobot-world[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :source
+[[1;34mINFO[m] Compiling 50 source files with javac [debug target 17] to target/classes
+[[1;33mWARNING[m] system modules path not set in conjunction with -source 17
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mrobot-world[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 2 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.11.0:testCompile[m [1m(default-testCompile)[m @ [36mrobot-world[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module! :dependency
+[[1;34mINFO[m] Compiling 19 source files with javac [debug target 17] to target/test-classes
+[[1;33mWARNING[m] system modules path not set in conjunction with -source 17
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:3.0.0-M9:test[m [1m(default-test)[m @ [36mrobot-world[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running za.co.wethinkcode.robots.client.[1mRequestTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.265 s - in za.co.wethinkcode.robots.client.[1mRequestTest[m
+[[1;34mINFO[m] Running za.co.wethinkcode.robots.client.[1mCommandHandlerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m5[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.176 s - in za.co.wethinkcode.robots.client.[1mCommandHandlerTest[m
+[[1;34mINFO[m] Running za.co.wethinkcode.robots.protocol.[1mProtocolResponseTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.029 s - in za.co.wethinkcode.robots.protocol.[1mProtocolResponseTest[m
+[[1;34mINFO[m] Running za.co.wethinkcode.robots.obstacle.[1mObstacleTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m7[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.395 s - in za.co.wethinkcode.robots.obstacle.[1mObstacleTest[m
+[[1;34mINFO[m] Running za.co.wethinkcode.robots.view.[1mViewTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m9[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 s - in za.co.wethinkcode.robots.view.[1mViewTest[m
+[[1;34mINFO[m] Running za.co.wethinkcode.robots.server.[1mServerCommandListenerTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 s - in za.co.wethinkcode.robots.server.[1mServerCommandListenerTest[m
+[[1;34mINFO[m] Running za.co.wethinkcode.robots.server.[1mServerTest[m
+Robot World Server started on port 5001
+New client connected: Socket[addr=/127.0.0.1,port=49798,localport=5001]
+New client connected: Socket[addr=/127.0.0.1,port=49804,localport=5001]
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.675 s - in za.co.wethinkcode.robots.server.[1mServerTest[m
+[[1;34mINFO[m] Running za.co.wethinkcode.robots.server.[1mCreateWorldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m4[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 s - in za.co.wethinkcode.robots.server.[1mCreateWorldTest[m
+[[1;34mINFO[m] Running za.co.wethinkcode.robots.robot.[1mRobotTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m16[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.181 s - in za.co.wethinkcode.robots.robot.[1mRobotTest[m
+[[1;34mINFO[m] Running za.co.wethinkcode.robots.world.[1mWorldTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m8[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.063 s - in za.co.wethinkcode.robots.world.[1mWorldTest[m
+[[1;34mINFO[m] Running za.co.wethinkcode.robots.command.[1mCommandTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m10[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 s - in za.co.wethinkcode.robots.command.[1mCommandTest[m
+[[1;34mINFO[m] Running za.co.wethinkcode.robots.position.[1mPositionTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 s - in za.co.wethinkcode.robots.position.[1mPositionTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 80, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  23.640 s
+[[1;34mINFO[m] Finished at: 2025-11-10T22:42:11+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

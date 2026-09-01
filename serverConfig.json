@@ -1,0 +1,14 @@
+{
+  "width": 20,
+  "height": 20,
+  "visibility": 3,
+  "maxBullets": 4,
+  "maxShields": 5,
+  "repairTime": 3,
+  "reloadTime": 3,
+  "obstacles": [
+    {"type": "mountain", "topLeft":[0,5], "bottomRight":[3,8]},
+    {"type": "lake", "topLeft":[6,5], "bottomRight":[19,10]},
+    {"type": "bottomlesspit", "topLeft":[1,14], "bottomRight":[4,18]}
+  ]
+}
